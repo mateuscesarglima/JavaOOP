@@ -13,6 +13,10 @@ public class App {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+
+
+        sc.close();
+
         Product p = new Product();
 
         System.out.println("Enter product data: ");
@@ -44,8 +48,8 @@ public class App {
 
         // Utilizando o toString.
         System.out.println(p);
-
-        sc.close();
+ 
+        
 
 
         /*
