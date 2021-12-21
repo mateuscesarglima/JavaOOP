@@ -41,6 +41,10 @@ public class App {
 
         System.out.printf("Updated data: %s, $ %.2f, %d units, Total: $ %.2f%n", p.name, p.price, p.quantity, p.totalProductsInStock());
 
+
+        // Utilizando o toString.
+        System.out.println(p);
+
         sc.close();
 
 
