@@ -1,12 +1,50 @@
 package application;
+
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle;
+import entities.Product;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
+
+        Locale.setDefault(Locale.US);
+        
+        Scanner sc = new Scanner(System.in);
+
+        Product p = new Product("Notebook Lenovo", 2000.00, 10);
+
+        System.out.println( "\n" +
+            "Nome: " + p.getName() + "\n" +
+            "Preço: R$ " + p.getPrice() + "\n" + 
+            "Quantidade em estoque: " + p.getQuantity() + "\n"
+        );
+        
+        p.addProducts(5);
+
+        System.out.println(
+            "Nome: " + p.getName() + "\n" +
+            "Preço: R$ " + p.getPrice() + "\n" +
+            "Quantidade em estoque: " + p.getQuantity() + "\n"
+            );
+
+        p.removeProducts(2);
+
+        System.out.println(
+            "Nome: " + p.getName() + "\n" +
+            "Preço: R$ " + p.getPrice() + "\n" +
+            "Quantidade em estoque: " + p.getQuantity() + "\n"
+            );
+
+
+
+
+
+
+
+
+    /*  -------------------------------------------------------------------------------------------------
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -38,10 +76,8 @@ public class App {
             System.out.println("Larger area: " + areaY);
         }
 
+        ------------------------------------------------------------------------------------
         
-
-
-        /*
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         
@@ -75,9 +111,12 @@ public class App {
         }else{
             System.out.println("A maior área é do triangulo Y");
         }
-
-        */
         sc.close();
+
+        -------------------------------------------------------------------------------------------
+
+    */
+        
 
     }
 }
