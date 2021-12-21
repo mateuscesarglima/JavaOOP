@@ -8,12 +8,12 @@ public class Product {
 
     public int quantity;
 
-    
 
-    public Product(String name, double price, int quantity) {
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
+
+    public double totalProductsInStock(){
+
+        return (this.price * this.quantity);
+
     }
 
     public int addProducts(int qtd) {
