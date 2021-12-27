@@ -41,3 +41,9 @@ Referente ao Curso de Java que iniciei na Udemy para agregar meus conhecimentos 
         este problema. 
 
 ### :calendar: 23/12/2021 19:00 - Sobrecarga
+
+### :calendar: 26/12/2021 00:00 - Vetores
+
+### :calendar: 26/12/2021 00:00 - Vetores_Exercicio
+
+### :calendar: 26/12/2021 22:40 - Foreach
