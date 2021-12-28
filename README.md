@@ -49,3 +49,5 @@ Referente ao Curso de Java que iniciei na Udemy para agregar meus conhecimentos 
 ### :calendar: 26/12/2021 22:40 - Foreach
 
 ### :calendar: 28/12/2021 11:04 - Matriz
+
+### :calendar: 28/12/2021 16:14 - Exercicio Matriz
