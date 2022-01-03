@@ -61,3 +61,5 @@ Referente ao Curso de Java que iniciei na Udemy para agregar meus conhecimentos 
 ### :calendar: 01/01/2022 22:46 - String Builder
 
 ### :calendar: 02/01/2022 03:36 - ultimo exercicio unidade 14
+
+### :calendar: 02/01/2022 22:15 - Herança
